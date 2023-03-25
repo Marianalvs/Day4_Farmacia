@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+body {
+    margin: 0px;
+    background: rgba(240, 196, 230, 0.26)
+}
+
+nav {
+    background: #76BEBE;
+    height: 107px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+
+nav button {
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #F5F5F5;
+    background-color: #76BEBE;
+
+}
+
+header {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 64px;
+    text-align: center;
+    color: #CF509C;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+#sec-form {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+    padding-left: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin: 10px;
+}
+
+input {
+    width: 467px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    font-family: 'Alegreya Sans SC';
+    border-color: rgba(255, 255, 255, 0.57);
+}
+
+button {
+    
+    width: 306px;
+    height: 62px;
+    background: #76BEBE;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    margin:39px auto
+    
+
+}
