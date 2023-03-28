@@ -28,27 +28,30 @@
         <div>
             <form>
                 <label for="medName">Nome do Medicamento</label>
-                <input type="text" required id="fname" name="medName">
+                <input type="text" autocomplete="off" id="fname" name="medName">
 
                 <label for="medQty">Quantidade Disponível</label>
-                <input type="text" required id="fqty" name="medQty">
+                <input type="text" autocomplete="off" id="fqty" name="medQty">
 
                 <label for="medPrice">Preço por unidade</label>
-                <input type="text" required id="fprice" name="medPrice">
+                <input type="text" autocomplete="off" id="fprice" name="medPrice">
 
                 <label for="medClass">Classe de Medicamento</label>
-                <input type="text" required id="fclass" name="medClass">
+                <input type="text" autocomplete="off" id="fclass" name="medClass">
 
                 <button type="submit" onclick="Cadastrar()">Cadastrar</button>
             </form>
         </div>
+
+        <div>
+            <table id="dataTable">
+         </table>
+        </div>
+
+
     </section>
 
-    <section id="card">
-
-    </section>
-
-    <script src="main.js"></script>
+     <script src="main.js"></script>
 
 </body>
 

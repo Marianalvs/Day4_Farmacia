@@ -32,7 +32,15 @@ header {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+    justify-content: center;
 }
+
+header img{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 1.5rem;
+    }
 
 h1 {
     font-family: 'Raleway';
@@ -100,4 +108,25 @@ button {
     margin:39px auto
     
 
+}
+
+th {
+    background: #767373;
+    color: white;
+    border: 1px solid #767373;;
+    min-width: 50x;
+    font-family: 'Alegreya Sans SC';
+    font-size: 28px;
+    }
+
+td {
+    background: rgba(255, 255, 255, 0.57);
+    border: 1px solid #767373;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+
+}
+
+#dataTable{
+    margin: 30px;
 }
